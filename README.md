@@ -1,27 +1,61 @@
 ![image](https://github.com/user-attachments/assets/91a86cb6-b3f3-489a-8d39-443b2298d971)
 
+# 🦷 STL Vertex Analysis GUI
 
-# 🦷 STL Margin Detection GUI
-
-A lightweight, Python-based desktop app for detecting dental margins from STL files — complete with edge detection, curve fitting, and even a user feedback rating system. Because science is cooler when it's interactive 😎
+A lightweight, Python-based desktop app for detecting **voxel-based issues** in STL files — with margin detection, smart point cloud sampling, polynomial curve fitting, and a Tkinter-powered GUI.
 
 ---
 
 ## 🎮 What is This?
 
 This app lets you:
-- Load STL files of dental models
-- Convert mesh to point cloud
-- Detect potential margin edges using smart geometry analysis
-- Fit a clean polynomial curve to the edge line
-- Visualize the result with matplotlib
-- Rate the quality of margin detection via a cute little GUI
+
+- 🦷 Load STL files of dental models  
+- 🔍 Convert mesh to point cloud  
+- 📐 Detect potential margin edges using geometry & KDTree  
+- 📈 Fit a clean polynomial curve to the edge line  
+- 🖼️ Visualize the result using `matplotlib`  
+- 🗳️ Rate the quality of detection via a GUI  
 
 Great for:
-- Dental designers
-- Mesh nerds
-- Anyone curious about computational geometry
+
+- Dental designers  
+- Mesh nerds  
+- Curious minds dabbling in computational geometry  
 - You, obviously 🧠
+
+---
+
+## 🚀 Features
+
+- ✅ STL mesh loading and validation  
+- ✅ Convert mesh to point cloud using Open3D  
+- ✅ Edge detection via KDTree & covariance analysis  
+- ✅ 5th-degree polynomial curve fitting  
+- ✅ Margin visualization (red dots + blue curve)  
+- ✅ User rating system for feedback  
+- ✅ Simple, local GUI using `tkinter` — no web browser needed!
+
+---
+
+## 🛠️ Tech Stack
+
+- **Core**: Python 3  
+- **GUI**: Tkinter  
+- **Mesh Handling**: Trimesh  
+- **Point Cloud Sampling**: Open3D  
+- **Math & Geometry**: NumPy, SciPy  
+- **Plotting**: Matplotlib  
+
+---
+
+## 📦 Installation
+
+Make sure Python 3.8+ is installed. Then run:
+
+```bash
+pip install trimesh open3d numpy scipy matplotlib
+
 
 ---
 
