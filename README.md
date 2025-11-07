@@ -6,27 +6,19 @@ A lightweight, Python-based desktop app for detecting **voxel-based issues** in 
 
 ---
 
-## 🎮 What is This?
+##  What is This?
 
 This app lets you:
 
-- 🦷 Load STL files of dental models  
-- 🔍 Convert mesh to point cloud  
-- 📐 Detect potential margin edges using geometry & KDTree  
-- 📈 Fit a clean polynomial curve to the edge line  
-- 🖼️ Visualize the result using `matplotlib`  
-- 🗳️ Rate the quality of detection via a GUI  
+-  Load STL files of dental models  
+-  Convert mesh to point cloud  
+-  Detect potential margin edges using geometry & KDTree  
+-  Fit a clean polynomial curve to the edge line  
+-  Visualize the result using `matplotlib`  
+-  Rate the quality of detection via a GUI  
 
-Great for:
 
-- Dental designers  
-- Mesh nerds  
-- Curious minds dabbling in computational geometry  
-- You, obviously 🧠
-
----
-
-## 🚀 Features
+##  Features
 
 - ✅ STL mesh loading and validation  
 - ✅ Convert mesh to point cloud using Open3D  
@@ -38,7 +30,7 @@ Great for:
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Core**: Python 3  
 - **GUI**: Tkinter  
@@ -49,7 +41,7 @@ Great for:
 
 ---
 
-## 📦 Installation
+##  Installation
 
 Make sure Python 3.8+ is installed. Then run:
 
@@ -59,19 +51,19 @@ pip install trimesh open3d numpy scipy matplotlib
 
 ---
 
-## 🚀 Features
+##  Features
 
-🦷 Load and validate STL meshes  
-🧊 Convert mesh to point cloud using Open3D  
-📐 KDTree + covariance-based edge detection  
-📈 Polynomial curve fitting (5th degree)  
-🖼️ Visualization of margin and fitted curve  
-🗳️ User feedback with rating system  
-💥 GUI built in Tkinter — no web browser needed!
+ Load and validate STL meshes  
+ Convert mesh to point cloud using Open3D  
+ KDTree + covariance-based edge detection  
+ Polynomial curve fitting (5th degree)  
+ Visualization of margin and fitted curve  
+ User feedback with rating system  
+ GUI built in Tkinter — no web browser needed!
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Backend / Core**: Python 3
 - **GUI**: Tkinter
@@ -82,13 +74,13 @@ pip install trimesh open3d numpy scipy matplotlib
 
 ---
 
-## 📦 Installation
+##  Installation
 
 Make sure Python 3.8+ is installed, then run this:
 
 ```bash
 pip install trimesh open3d numpy scipy matplotlib
-▶️ How to Use
+ How to Use
 bash
 Copy
 Edit
@@ -101,7 +93,7 @@ Rate how accurate you think the detection was (1-5).
 
 Brag about your AI-enhanced margin detection on LinkedIn.
 
-🧠 Under the Hood
+ Under the Hood
 STL Loading: via trimesh
 
 Mesh → Point Cloud: using open3d.geometry.TriangleMesh.sample_points_uniformly()
@@ -120,7 +112,7 @@ Curve Fitting:
 
 Visualization: red dots = edges, blue line = curve
 
-📂 Project Layout
+ Project Layout
 graphql
 Copy
 Edit
@@ -129,7 +121,7 @@ Dental-Margin-analyser/
 ├── margin.py           # Main script (run this!)
 ├── README.md           # This file
 └── sample.stl          # Optional test STL file
-🌟 Wishlist / Future Features
+ Wishlist / Future Features
 Export fitted margin as new STL/OBJ
 
 3D OpenGL viewer (Open3D or PyVista)
@@ -142,7 +134,7 @@ Crown auto-design integration
 
 Dark mode for your late-night margin sessions 🌙
 
-🧊 Disclaimers
+ Disclaimers
 This is a prototype, not a medical-grade tool.
 
 Works best with high-resolution, clean STL models.
