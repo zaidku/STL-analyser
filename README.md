@@ -10,16 +10,16 @@ A professional-grade desktop application for **automated dental margin detection
 
 ---
 
-## 🎯 What Does This Tool Do?
+##  What Does This Tool Do?
 
 This application provides comprehensive STL mesh analysis capabilities specifically designed for dental applications:
 
-- **📄 STL File Processing**: Load and validate complex dental STL models with robust error handling
-- **🔄 Mesh-to-Point Cloud Conversion**: Intelligent sampling using Open3D for optimal data processing  
-- **🔍 Edge Detection**: Advanced KDTree and covariance matrix analysis for precise margin identification
-- **📈 Curve Fitting**: 5th-degree polynomial regression for smooth, accurate margin curves
-- **📊 Interactive Visualization**: Real-time plotting with matplotlib for immediate feedback
-- **⭐ Quality Assessment**: Built-in user rating system for continuous improvement
+- ** STL File Processing**: Load and validate complex dental STL models with robust error handling
+- ** Mesh-to-Point Cloud Conversion**: Intelligent sampling using Open3D for optimal data processing  
+- ** Edge Detection**: Advanced KDTree and covariance matrix analysis for precise margin identification
+- ** Curve Fitting**: 5th-degree polynomial regression for smooth, accurate margin curves
+- ** Interactive Visualization**: Real-time plotting with matplotlib for immediate feedback
+- ** Quality Assessment**: Built-in user rating system for continuous improvement
 
 ---
 
@@ -174,7 +174,7 @@ margin_curve = np.poly1d(coefficients)
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 STL-analyser/
@@ -234,9 +234,9 @@ STL-analyser/
 
 ---
 
-## ⚠️ Important Disclaimers
+##  Important Disclaimers
 
-> **⚕️ Medical Device Notice**: This software is a research and educational tool only. It is **NOT** approved as a medical device and should **NOT** be used for clinical diagnosis or treatment planning without proper validation and professional oversight.
+> ** Medical Device Notice**: This software is a research and educational tool only. It is **NOT** approved as a medical device and should **NOT** be used for clinical diagnosis or treatment planning without proper validation and professional oversight.
 
 ### Usage Guidelines
 - ✅ **Research and Education**: Appropriate for academic and training purposes
@@ -304,12 +304,12 @@ copies or substantial portions of the Software.
 
 ---
 
-## 🤝 Support & Community
+##  Support & Community
 
 ### Getting Help
-- **📧 Issues**: [GitHub Issues](https://github.com/zaidku/STL-analyser/issues) for bug reports and feature requests
-- **💬 Discussions**: [GitHub Discussions](https://github.com/zaidku/STL-analyser/discussions) for questions and community chat
-- **📖 Wiki**: [Project Wiki](https://github.com/zaidku/STL-analyser/wiki) for detailed documentation
+- ** Issues**: [GitHub Issues](https://github.com/zaidku/STL-analyser/issues) for bug reports and feature requests
+- ** Discussions**: [GitHub Discussions](https://github.com/zaidku/STL-analyser/discussions) for questions and community chat
+- ** Wiki**: [Project Wiki](https://github.com/zaidku/STL-analyser/wiki) for detailed documentation
 
 ### Acknowledgments
 - **Developer**: [Zaid Kumar](https://github.com/zaidku) - Links Technologies
@@ -318,7 +318,7 @@ copies or substantial portions of the Software.
 
 ---
 
-## 📊 Project Statistics
+##  Project Statistics
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/zaidku/STL-analyser)
 ![GitHub last commit](https://img.shields.io/github/last-commit/zaidku/STL-analyser)
@@ -327,6 +327,5 @@ copies or substantial portions of the Software.
 
 ---
 
-**Ready to revolutionize your dental STL analysis workflow? Get started today!** 🚀
+**Ready to revolutionize your dental STL analysis workflow? Get started today!** 
 
-*Made with ❤️ for the dental technology community*
